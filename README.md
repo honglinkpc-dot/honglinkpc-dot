@@ -1,6 +1,7 @@
 # 💫 About Me:
-
-
+Hello, I'm SAMOLHONGLIN, 
+I study at Royal university of phnom penh
+firs year
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)]([https://facebook.com/Samol Hong Lin])
