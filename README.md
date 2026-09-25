@@ -1,104 +1,116 @@
-<style>
-    .carousels-wrapper {
-        width: 100%;
-        margin: 20px 0;
-    }
+# 👋 Hi, I'm Honglin
 
-    .carousel {
-        width: 100%;
-        overflow: hidden;
-        mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
-        -webkit-mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
-    }
+### 💻 Computer Science Student | Developer | Tech Enthusiast
 
-    .track {
-        display: flex;
-        width: max-content;
-        will-change: transform;
-        animation: scroll 15s linear infinite;
-    }
+I'm a Computer Science student from **Cambodia 🇰🇭** who enjoys building projects, learning new technologies, and solving programming problems.
 
-    @keyframes scroll {
-        0% {
-            transform: translateX(0);
-        }
-        100% {
-            transform: translateX(-50%);
-        }
-    }
+I’m currently improving my skills in **C++, Python, Web Development, Linux, and Software Development**.
 
-    .item {
-        width: 240px;
-        height: 160px;
-        flex-shrink: 0;
-        border-radius: 12px;
-        margin-right: 15px;
-        overflow: hidden;
-        transition: transform 0.3s ease;
-    }
+---
 
-    .item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-        transition: filter 0.3s ease, transform 0.3s ease;
-        backface-visibility: hidden;
-    }
+## 🚀 About Me
 
-    /* Grayscale out items when hovering the carousel */
-    .carousel:hover .item img {
-        filter: grayscale(0.8);
-    }
+- 🎓 **Education:** Computer Science Student
+- 🇰🇭 **Location:** Cambodia
+- 💻 **Interests:** Software Engineering & Web Development
+- 🧠 **Tech Focus:** C++, Python, JavaScript & Linux
+- 🌐 **Projects:** Building web applications & open-source software
+- 🛠️ **Passion:** Problem-solving through algorithms and clean code
+- 🎯 **Goal:** Continuously improving software engineering skills
 
-    /* Highlight hovered item */
-    .item:hover img {
-        filter: grayscale(0) !important;
-        transform: scale(1.05);
-    }
+---
 
-    /* Pause animation on hover */
-    .carousel:hover .track {
-        animation-play-state: paused;
-    }
+## 📜 Certificates & Achievements
 
-    /* Responsive adjustments */
-    @media (max-width: 760px) {
-        .item {
-            width: 180px;
-            height: 120px;
-            margin-right: 12px;
-        }
-    }
+<p align="center">
+  <img src="https://via.placeholder.com/240x160?text=Certificate+1" width="30%" alt="Certificate 1" />
+  <img src="https://via.placeholder.com/240x160?text=Certificate+2" width="30%" alt="Certificate 2" />
+  <img src="https://via.placeholder.com/240x160?text=Certificate+3" width="30%" alt="Certificate 3" />
+</p>
 
-    @media (max-width: 480px) {
-        .carousel {
-            mask-image: linear-gradient(to right, transparent, #000 5% 95%, transparent);
-            -webkit-mask-image: linear-gradient(to right, transparent, #000 5% 95%, transparent);
-        }
+---
 
-        .item {
-            width: 140px;
-            height: 95px;
-            margin-right: 10px;
-        }
-    }
-</style>
+## 💻 Tech Stack
 
-<div class="carousels-wrapper">
-    <div class="carousel">
-        <div class="track">
-            <!-- First Set -->
-            <div class="item"><img src="YOUR_IMAGE_URL_1" alt="Certificate 1"></div>
-            <div class="item"><img src="YOUR_IMAGE_URL_2" alt="Certificate 2"></div>
-            <div class="item"><img src="YOUR_IMAGE_URL_3" alt="Certificate 3"></div>
-            <div class="item"><img src="YOUR_IMAGE_URL_4" alt="Certificate 4"></div>
+### Programming Languages
 
-            <!-- Exact Duplicate Set (Required for continuous animation) -->
-            <div class="item"><img src="YOUR_IMAGE_URL_1" alt="Certificate 1"></div>
-            <div class="item"><img src="YOUR_IMAGE_URL_2" alt="Certificate 2"></div>
-            <div class="item"><img src="YOUR_IMAGE_URL_3" alt="Certificate 3"></div>
-            <div class="item"><img src="YOUR_IMAGE_URL_4" alt="Certificate 4"></div>
-        </div>
-    </div>
-</div>
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+### Web Development
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### Tools & Platforms
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+---
+
+## 🚀 Featured Projects
+
+### 🏨 Hotel Management System
+A C++ application for managing room reservations, customer profiles, payments, and administrative access.
+- **Technologies:** C++ • OOP • File I/O
+
+---
+
+### 🇰🇭 Cambodia Tourism Website
+A web application helping travelers discover cultural and historical tourist destinations across Cambodia.
+- **Technologies:** HTML5 • CSS3 • JavaScript
+
+---
+
+### 🗺️ Cambodia Tourism Map
+An interactive map platform showcasing major local destinations, detailed info cards, and media galleries.
+- **Technologies:** HTML5 • CSS3 • JavaScript • Map APIs
+
+---
+
+## 📊 GitHub Statistics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=honglinkpc-dot&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=honglinkpc-dot&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+---
+
+## 📈 GitHub Activity Streak
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=honglinkpc-dot&theme=tokyonight&hide_border=true" alt="Streak Stats" />
+</p>
+
+---
+
+## 🌐 Connect With Me
+
+<p align="left">
+  <a href="https://github.com/honglinkpc-dot" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://www.tiktok.com/" target="_blank">
+    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+## 💡 Skill Progress
+
+```text
+C++             ███████████████░░░   80%
+HTML / CSS      ████████████████░░   85%
+JavaScript      ███████████░░░░░░░   60%
+Python          ████████████░░░░░░   65%
+Linux           ███████████░░░░░░░   60%
+Git & GitHub    █████████████░░░░░   70%
