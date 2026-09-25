@@ -82,15 +82,6 @@ An interactive map platform showcasing major local destinations, detailed info c
 
 ---
 
-## 📊 GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=honglinkpc-dot&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=honglinkpc-dot&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
----
 
 ## 📈 GitHub Activity Streak
 
